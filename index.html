@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Who are you?</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Game of Thrones</h1>
+        <h3>Which Character are you?</h3>
+      </div>
+      <div>
+        <form id="formOne">
+          <h3>What is your idea of a good time?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="good-time" value="ned1" checked>
+              Keeping the peace
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="good-time" value="jamie1">
+            A good fight
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="good-time" value="cate1">
+            Spending time with family
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="good-time" value="cerci1">
+            Drinking wine
+            </label>
+          </div>
+
+          <h3>Wine or Mead?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wine-mead" value="ned2" checked>
+              Neither
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wine-mead" value="jamie2">
+              Mead
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wine-mead" value="cate2">
+              Wine on occassion
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="wine-mead" value="cerci2">
+              Tons of wine
+            </label>
+          </div>
+
+          <h3>What is your favorite season?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="season" value="ned3" checked>
+              Winter
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="season" value="jamie3">
+              Summer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="season" value="cate3">
+              Fall
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="season" value="cerci3">
+              Spring
+            </label>
+          </div>
+
+          <h3>How much honor do you have?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="honor" value="ned4" checked>
+              A lot
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="honor" value="jamie4">
+              Some
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="honor" value="cate4">
+              Enough
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="honor" value="cerci4">
+              None
+            </label>
+          </div>
+          <button type="submit" class="btn btn-info">Submit!</button>
+        </form>
+        <div>
+          <div class="init-hidden" id="ned">
+            <img src="img/ned.jpg" alt="ned" />
+            <h1>Ned Stark</h1>
+            <p>
+            Congrats!
+            </p>
+          </div>
+          <div class="init-hidden" id="jamie">
+            <img src="img/jamie.jpg" alt="jamie" />
+            <h1>Jamie Lannister</h1>
+            <p>
+              Congrats!
+            </p>
+          </div>
+          <div class="init-hidden" id="cate">
+            <img src="img/cate.jpg" alt="cate" />
+            <h1>Catelynn Stark</h1>
+            <p>
+              Congrats!
+            </p>
+          </div>
+          <div class="init-hidden" id="cerci">
+            <img src="img/cerci.jpg" alt="cerci" />
+            <h1>Cercei Lannister</h1>
+            <p>
+              Congrats!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
